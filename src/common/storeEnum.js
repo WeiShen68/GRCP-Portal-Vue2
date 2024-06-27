@@ -1,0 +1,16 @@
+export const STORE_STOCK_ORDER_STATUS = {
+  NEW: 0,
+  CONFIRMED: 1,
+  APPROVED: 2,
+  DELETED: 3,
+  CANCELLED: 4,
+  PICKED_UP: 8,
+  COMPLETED: 9
+};
+
+export const STORE_STOCK_ORDER_TYPE = {
+  AUTO: 1,
+  MANUAL: 2,
+  STORE_HQ: 3,
+  STORE: 4
+};

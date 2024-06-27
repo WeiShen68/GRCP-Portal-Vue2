@@ -1,0 +1,25 @@
+:root {
+  --gap: 0.5rem;
+  --gap-full: 1rem;
+  --max-width: 100%;
+  --layout-padding: 4px 20px;
+  --content-padding: 15px 10px;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  // font-family: 'Zapf Chancery', cursive;
+
+}
+
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  html {
+    font-size: 15px !important;
+  }
+}

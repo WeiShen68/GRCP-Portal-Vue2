@@ -1,0 +1,231 @@
+.theme--light {
+  &.v-application {
+    background-color: #e9ecef !important;
+    line-height: 1.15;
+  }
+
+  &.v-app-bar {
+    .v-toolbar__content {
+      display: flex;
+      margin: 0 auto;
+      max-width: var(--max-width);
+      padding: var(--layout-padding);
+    }
+  }
+
+  .v-tab {
+    text-transform: none !important;
+  }
+
+  #no-background-hover::before {
+    background-color: transparent !important;
+  }
+
+  //disabled text field color
+  .theme--light.v-input--is-disabled {
+    background-color: #D6DBDF;
+  }
+
+  //login title label
+  .login_label {
+    font-size: 2rem;
+    font-weight: 600;
+    color: orange;
+  }
+
+  //sticky title
+  .sticky_bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  //label for table titles
+  .table_label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+
+  //label dashboard huge font
+  .big_text {
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+  }
+
+  //label dashboard small font
+  .smol_text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+  }
+
+  //label for titles...
+  .titles {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  //label for subtitles...
+  .subtitles {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: grey;
+  }
+
+  //label for v-chips 
+  &.v-chip {
+    .v-chip__content {
+      font-size: 0.825rem;
+      font-weight: 300;
+      color: #ffffff;
+
+    }
+  }
+
+  .tab_font {
+    font-size: 0.9rem;
+  }
+
+  &.v-btn {
+    text-transform: none;
+
+    &.v-size--default {
+      font-size: 14px;
+      letter-spacing: 0;
+    }
+
+    &.btn-cancel {
+      background-color: var(--grey) !important;
+      color: #ffffff;
+    }
+
+    &.btn-grey {
+      background-color: var(--grey) !important;
+      color: #ffffff;
+    }
+
+    &.btn-green {
+      background-color: #5cb85c !important;
+      color: #ffffff;
+    }
+
+    &.btn-orange {
+      background-color: #E67E22 !important;
+      color: #ffffff;
+    }
+
+    &.btn_blue {
+      background-color: #3498DB !important;
+      color: #ffffff;
+    }
+
+    &.btn_teal {
+      background-color: #73C6B6 !important;
+      color: #ffffff;
+    }
+
+    &.btn-red {
+      background-color: #d9534f !important;
+      color: #ffffff;
+    }
+
+    &.btn-black {
+      background-color: #4a4a4a !important;
+      color: #ffffff;
+    }
+  }
+
+  .btn-group-two {
+    .toggle-wrap.v-btn-toggle {
+      .v-btn.theme--light {
+        width: 50%;
+      }
+    }
+  }
+
+  &.v-data-table {
+    &.bordered {
+      border: 1px solid #ccc;
+    }
+
+    .v-data-table-header th {
+      white-space: nowrap;
+    }
+
+    .v-data-table-header tr th {
+      font-weight: bold !important;
+    }
+
+    .v-data-table__wrapper {
+      thead.v-data-table-header tr th {
+        font-size: 0.825rem;
+        height: 42px;
+        padding: 0 8px;
+      }
+
+      thead tr th {
+        font-size: 0.825rem;
+        height: 42px;
+        padding: 0 8px;
+      }
+
+      tbody tr {
+        td {
+          font-size: 0.825rem;
+          height: 42px;
+          padding: 2px 8px;
+        }
+      }
+
+      .v-data-table__mobile-table-row {
+        margin-top: 10px;
+        border: 1px solid #ededed; // add border color
+        display: block; // display table row as block
+      }
+
+      .v-data-table__mobile-row {
+        height: initial;
+        min-height: unset;
+        justify-content: unset;
+
+      }
+
+      // table header for mobile view
+      .v-data-table__mobile-row__header {
+        padding-right: 5px;
+      }
+    }
+  }
+
+  .form-row {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    &-col {
+      padding-top: 4px;
+      padding-bottom: 4px;
+
+      &__label {
+        color: #000;
+        font-size: 0.875rem;
+        margin-bottom: 2px;
+      }
+    }
+  }
+
+  .v-card__title {
+    font-size: 2.7rem;
+  }
+
+  &.v-icon {
+    &.mdi-information {
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 959px) {}
+
+@media screen and (max-width: 599px) {}

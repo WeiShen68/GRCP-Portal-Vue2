@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #1867C0;
+  --tbl-header-color: rgb(68 130 199 / 90%);
+  
+  // --error-text-color: #ff5252;
+  // --error-border-color: #ff5252;
+  // --field-label-color: var(--grey-dark);
+  // --pg-title-color: var(--grey-light);
+  // --sec-title-color: var(--grey);
+  // --table-data-color: var(--grey);
+  // --table-label-color: var(--grey-dark-1);
+
+  --black: #333333;
+  --black-lighten-1: #4a4a4a;
+  // --blue-dark: #19397d;
+  // --blue: #1a79f6; // btn blue
+  // --blue-disabled: #b0cdf7; // btn blue disabled
+  // --blue-light: #4cb5ff; // status blue
+  --green: #1dd039;
+  --green-light-1: #00ff28;
+  --grey: #8e8e8e;
+  --orange: #f0ad4e;
+  // --orange-dark: #f27900; // orange color
+  // --orange: #ffb259; // orange color
+  // --purple: #9059ff; // purple
+  // --purple-light: #C9AFFF; // purple light
+  --red: #ff5252;
+  // --red-light: #ff5959; // status red (lighter)
+  // --yellow: #ffc400; // yellow
+  // --yellow-light: #fcde00; // yellow
+}
+
+// .status-grey {
+//   background-color: var(--grey-light);
+//   color: #fff;
+// }
+// .status-purple {
+//   background-color: var(--purple);
+//   color: #fff;
+// }
+// .status-purple-light {
+//   background-color: var(--purple-light);
+//   color: #000000;
+// }
+.font-black {
+  color: var(--black);
+}
+.font-black-l-1 {
+  color: var(--black-lighten-1);
+}
+.font-green {
+  color: var(--green);
+}
+.font-red {
+  color: var(--red);
+}
+// .font-red-light {
+//   color: var(--red-light);
+// }
+// .font-green {
+//   color: var(--green);
+// }
+// .font-green-light {
+//   color: var(--green-light);
+// }
+// .font-green-dark-1 {
+//   color: var(--green-dark-1);
+// }
+// .font-grey {
+//   color: var(--grey);
+// }
+// .font-grey-light {
+//   color: var(--grey-light);
+// }
+// .font-grey-lighter-1 {
+//   color: var(--grey-lighter-1);
+// }
+// .font-orange {
+//   color: var(--orange);
+// }
